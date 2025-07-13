@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: black;
+}
+header {
+    color: #00ff00;
+    padding: 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 24px;
+}
+.tool-link {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #00ff00;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+.tool-link:hover {
+    transform: scale(1.02);
+}
